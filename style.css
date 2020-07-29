@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap');
+
+body {
+	font-family: 'Rowdies', cursive;
+	color: #fff;
+	background: #00f260; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0575e6, #00f260); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#0575e6,
+		#00f260
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+	text-align: center;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.score-board {
+	padding: 1em;
+}
+.grid {
+	height: 560px;
+	width: 560px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em;
+	border: 5px solid #ffafbd;
+	border-radius: 15px;
+}
+.grid div {
+	height: 70px;
+	width: 70px;
+}
